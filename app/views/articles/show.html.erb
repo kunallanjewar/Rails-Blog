@@ -8,3 +8,6 @@ Title: <%= @article.title%>
 <p>
 Descritpion: <%= @article.description%>
 </p>
+
+<%= link_to "Back to List", articles_path%> | <%= link_to "Edit article", edit_article_path(@article)%>
+
