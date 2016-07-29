@@ -44,11 +44,21 @@ $navbar-default-bg: black;
   top: 400px;
 }
 
+//This adds line to buttons in Show articles
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
 footer{
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+}
+
+.description{
+  margin-top: 0;
 }
 
 footer a:hover{
