@@ -7,6 +7,10 @@ gem 'rails', '4.2.5'
 # gem for user auth
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
+#pageination
+gem 'will_paginate', '~> 3.1'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
